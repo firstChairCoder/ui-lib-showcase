@@ -1,7 +1,15 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
-import { HomeScreen } from "../screens";
+import {
+  Avatars,
+  Buttons,
+  Colors,
+  Forms,
+  HomeScreen,
+  Sections,
+  Typography
+} from "../screens";
 import type { MainStackParamList } from "./types";
 
 const { Navigator, Screen } = createStackNavigator<MainStackParamList>();
@@ -29,12 +37,12 @@ const RootNavigator = () => {
         }}
       >
         <Screen name="Home" component={HomeScreen} />
-        {/* <Screen name="Typography" component={Typography} />
+        <Screen name="Typography" component={Typography} />
         <Screen name="Buttons" component={Buttons} />
         <Screen name="Colors" component={Colors} />
         <Screen name="Forms" component={Forms} />
-        <Screen name="Section" component={Section} />
-        <Screen name="Avatar" component={Avatar} /> */}
+        <Screen name="Sections" component={Sections} />
+        <Screen name="Avatars" component={Avatars} />
       </Navigator>
     </NavigationContainer>
   );
