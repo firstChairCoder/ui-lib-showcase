@@ -69,10 +69,7 @@ export const Avatars = ({
               }}
             >
               <Text size="lg">Large lg</Text>
-              <Profile
-                source={require("../../assets/female-2.jpg")}
-                size="lg"
-              />
+              <Profile username="Jane Doe" size="lg" />
             </View>
             <View
               style={{
@@ -97,10 +94,7 @@ export const Avatars = ({
               }}
             >
               <Text>Small sm</Text>
-              <Profile
-                source={require("../../assets/female-4.jpg")}
-                size="sm"
-              />
+              <Profile username="Mary Jane" size="sm" />
             </View>
           </SectionContent>
         </Section>
@@ -120,18 +114,12 @@ export const Avatars = ({
                   source={require("../../assets/female.jpg")}
                   size="xl"
                 />
-                <Profile
-                  source={require("../../assets/female-2.jpg")}
-                  size="lg"
-                />
+                <Profile username="Jane Doe" size="lg" />
                 <Profile
                   source={require("../../assets/female-3.jpg")}
                   size="md"
                 />
-                <Profile
-                  source={require("../../assets/female-4.jpg")}
-                  size="sm"
-                />
+                <Profile username="Mary Jane" size="sm" />
               </View>
               <View style={{ alignItems: "flex-end" }}>
                 <Text>round</Text>
@@ -152,21 +140,13 @@ export const Avatars = ({
                   source={require("../../assets/female.jpg")}
                   size="xl"
                 />
-                <Profile
-                  shape="rounded"
-                  source={require("../../assets/female-2.jpg")}
-                  size="lg"
-                />
+                <Profile shape="rounded" username="Jane Doe" size="lg" />
                 <Profile
                   shape="rounded"
                   source={require("../../assets/female-3.jpg")}
                   size="md"
                 />
-                <Profile
-                  shape="rounded"
-                  source={require("../../assets/female-4.jpg")}
-                  size="sm"
-                />
+                <Profile shape="rounded" username="Mary Jane" size="sm" />
               </View>
               <Text>rounded </Text>
             </View>
@@ -184,21 +164,13 @@ export const Avatars = ({
                   source={require("../../assets/female.jpg")}
                   size="xl"
                 />
-                <Profile
-                  shape="square"
-                  source={require("../../assets/female-2.jpg")}
-                  size="lg"
-                />
+                <Profile shape="square" username="Jane Doe" size="lg" />
                 <Profile
                   shape="square"
                   source={require("../../assets/female-3.jpg")}
                   size="md"
                 />
-                <Profile
-                  shape="square"
-                  source={require("../../assets/female-4.jpg")}
-                  size="sm"
-                />
+                <Profile shape="square" username="Mary Jane" size="sm" />
               </View>
               <Text>square</Text>
             </View>

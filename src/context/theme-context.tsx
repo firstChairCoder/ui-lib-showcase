@@ -43,11 +43,7 @@ const ThemeProvider = (props: {
           backgroundColor: isDarkmode ? themeColor.dark : themeColor.white100
         }}
       >
-        {!isLoadingComplete
-          ? props.loading
-            ? props.loading
-            : null
-          : props.children}
+        {!isLoadingComplete ? props.loading : props.children}
       </SafeAreaProvider>
     </ThemeContext.Provider>
   );
